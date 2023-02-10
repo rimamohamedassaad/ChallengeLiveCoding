@@ -25,8 +25,8 @@ const ListWithPrices = () => {
     };
 
     return (
-        <div>
-            <form onSubmit={handleSubmit} style={{ marginTop: "30px" }}>
+        <div >
+            <form onSubmit={handleSubmit} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '40px'}}>
                 <input
                     type="text"
                     name="name"
